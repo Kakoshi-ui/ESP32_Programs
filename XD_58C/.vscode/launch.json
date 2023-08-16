@@ -1,0 +1,11 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "espidf",
+      "name": "Launch",
+      "request": "launch",
+      "cwd": "C:\\Users\\axel9\\Documents\\examples\\XD_58C"
+    }
+  ]
+}
