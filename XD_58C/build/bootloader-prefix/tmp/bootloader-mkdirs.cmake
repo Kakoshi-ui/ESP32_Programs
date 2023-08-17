@@ -4,7 +4,7 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "C:/Espressif/frameworks/esp-idf-v4.4.5/components/bootloader/subproject"
+  "C:/Users/axel9/esp/esp-idf/components/bootloader/subproject"
   "C:/Users/axel9/Documents/examples/XD_58C/build/bootloader"
   "C:/Users/axel9/Documents/examples/XD_58C/build/bootloader-prefix"
   "C:/Users/axel9/Documents/examples/XD_58C/build/bootloader-prefix/tmp"
@@ -17,3 +17,6 @@ set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
     file(MAKE_DIRECTORY "C:/Users/axel9/Documents/examples/XD_58C/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
+if(cfgdir)
+  file(MAKE_DIRECTORY "C:/Users/axel9/Documents/examples/XD_58C/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+endif()
