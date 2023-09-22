@@ -412,3 +412,18 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/axel9/Documents/examples/XD_58C/build/esp-idf/main/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/axel9/Documents/examples/XD_58C/build/esp-idf/send_data_thingspeak/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/axel9/Documents/examples/XD_58C/build/esp-idf/set_adc/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/axel9/Documents/examples/XD_58C/build/esp-idf/wifi_sta/cmake_install.cmake")
+endif()
+

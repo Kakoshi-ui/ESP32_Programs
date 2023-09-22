@@ -63,3 +63,6 @@ C:/Users/axel9/Documents/examples/XD_58C/build/esp-idf/ulp/libulp.a
 C:/Users/axel9/Documents/examples/XD_58C/build/esp-idf/usb/libusb.a
 C:/Users/axel9/Documents/examples/XD_58C/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
 C:/Users/axel9/Documents/examples/XD_58C/build/esp-idf/main/libmain.a
+C:/Users/axel9/Documents/examples/XD_58C/build/esp-idf/send_data_thingspeak/libsend_data_thingspeak.a
+C:/Users/axel9/Documents/examples/XD_58C/build/esp-idf/set_adc/libset_adc.a
+C:/Users/axel9/Documents/examples/XD_58C/build/esp-idf/wifi_sta/libwifi_sta.a
