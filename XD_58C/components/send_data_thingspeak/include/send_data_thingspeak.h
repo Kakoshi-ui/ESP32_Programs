@@ -1,6 +1,0 @@
-#ifndef SEND_DATA_THINGSPEAK_H
-#define SEND_DATA_THINGSPEAK_H
-
-void func(void);
-
-#endif/*SEND_DATA_THINGSPEAK_H*/

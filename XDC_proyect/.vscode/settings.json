@@ -1,0 +1,29 @@
+{
+    "files.associations": {
+        "*.tcc": "c",
+        "compare": "c",
+        "exception": "c",
+        "functional": "c",
+        "algorithm": "c",
+        "random": "c",
+        "istream": "c",
+        "new": "c",
+        "numeric": "c",
+        "ostream": "c",
+        "sstream": "c",
+        "streambuf": "c",
+        "string_view": "c",
+        "cmath": "c",
+        "type_traits": "c",
+        "typeinfo": "c",
+        "utility": "c",
+        "adc.h": "c",
+        "esp_wifi.h": "c",
+        "esp_http_client.h": "c",
+        "sdkconfig.h": "c",
+        "stdlib.h": "c",
+        "stdio.h": "c",
+        "esp_crt_bundle.h": "c",
+        "esp_tls.h": "c"
+    }
+}

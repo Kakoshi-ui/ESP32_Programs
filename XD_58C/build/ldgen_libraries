@@ -58,11 +58,10 @@ C:/Users/axel9/Documents/examples/XD_58C/build/esp-idf/json/libjson.a
 C:/Users/axel9/Documents/examples/XD_58C/build/esp-idf/mqtt/libmqtt.a
 C:/Users/axel9/Documents/examples/XD_58C/build/esp-idf/perfmon/libperfmon.a
 C:/Users/axel9/Documents/examples/XD_58C/build/esp-idf/spiffs/libspiffs.a
-C:/Users/axel9/Documents/examples/XD_58C/build/esp-idf/touch_element/libtouch_element.a
-C:/Users/axel9/Documents/examples/XD_58C/build/esp-idf/ulp/libulp.a
-C:/Users/axel9/Documents/examples/XD_58C/build/esp-idf/usb/libusb.a
 C:/Users/axel9/Documents/examples/XD_58C/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
+C:/Users/axel9/Documents/examples/XD_58C/build/esp-idf/espressif__mdns/libespressif__mdns.a
 C:/Users/axel9/Documents/examples/XD_58C/build/esp-idf/main/libmain.a
-C:/Users/axel9/Documents/examples/XD_58C/build/esp-idf/send_data_thingspeak/libsend_data_thingspeak.a
-C:/Users/axel9/Documents/examples/XD_58C/build/esp-idf/set_adc/libset_adc.a
+C:/Users/axel9/Documents/examples/XD_58C/build/esp-idf/adc_set/libadc_set.a
+C:/Users/axel9/Documents/examples/XD_58C/build/esp-idf/http_request/libhttp_request.a
+C:/Users/axel9/Documents/examples/XD_58C/build/esp-idf/thingspeak/libthingspeak.a
 C:/Users/axel9/Documents/examples/XD_58C/build/esp-idf/wifi_sta/libwifi_sta.a
