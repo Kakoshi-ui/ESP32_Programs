@@ -1,1 +1,5 @@
-bcabedd63e0b9a5e212ad255f6e1e87ee01d79d4
+0000000000000000000000000000000000000000 6c09d59ca85a4c46cd96968c97465bb78d94c8c7 Kakoshi <axel93rr30@gmail.com> 1692148028 -0600	commit (initial): Agregando ejemplos ya disponibles
+6c09d59ca85a4c46cd96968c97465bb78d94c8c7 1b107fbbbbafe9ece1b5f51b67d0596ef9ad3488 Kakoshi <axel93rr30@gmail.com> 1692283690 -0600	commit: Se configura y hace cambio a la version 5.1, algunos proyectos quedaran desactualizados
+1b107fbbbbafe9ece1b5f51b67d0596ef9ad3488 2fa5cf0ca405b53f449d0511372b7f6d92cdefc2 Kakoshi <axel93rr30@gmail.com> 1692283875 -0600	commit: Se elimino el proyecto XD_58C para actualizar la version de idf a 5.1, algunos proyectos podran estar desactualizados
+2fa5cf0ca405b53f449d0511372b7f6d92cdefc2 bcabedd63e0b9a5e212ad255f6e1e87ee01d79d4 Kakoshi <axel93rr30@gmail.com> 1695363221 -0600	commit: 23/09/22
+bcabedd63e0b9a5e212ad255f6e1e87ee01d79d4 36c76d43730edecdd9a8510e48e29fe0e039bc4a Kakoshi <axel93rr30@gmail.com> 1699203839 -0600	commit: 23/11/05

@@ -3,6 +3,7 @@
 #include <freertos/task.h>
 #include <esp_system.h>
 #include <esp_log.h>
+#include <esp_http_client.h>
 
 #include <lwip/err.h>
 #include <lwip/sockets.h>
@@ -12,7 +13,7 @@
 #include <lwip/dns.h>
 #include "http_request.h"
 
-static const char *TAG = "HTTP";
+static const char* TAG = "HTTP";
 
 esp_err_t http_client_request(const char *web_server, const char *request_string){
     const struct addrinfo hints = {
@@ -71,3 +72,35 @@ esp_err_t http_client_request(const char *web_server, const char *request_string
     close(s);
     return ESP_OK;
 }
+
+/*static const char* TAG = "HTTP";
+
+void http_client_request(const char* web_server, char* post_field){
+    esp_err_t error;
+
+    esp_http_client_config_t client_cfg = {
+        .url = web_server,
+        .method = HTTP_METHOD_GET,
+    };
+
+    esp_http_client_handle_t client = esp_http_client_init(&client_cfg);
+    esp_http_client_set_header(client, "Content-Type", "application/x-www-form-urlencoded");
+    vTaskDelay(50/portTICK_PERIOD_MS);
+    ESP_LOGI(TAG, "Field to post: %s", post_field);
+    esp_http_client_set_post_field(client, post_field, strlen(post_field));
+
+    error = esp_http_client_perform(client);
+    if (error == ESP_OK){
+        int status_code = esp_http_client_get_status_code(client);
+        if(status_code == 200){
+            ESP_LOGI(TAG, "Data Send Succesfully");
+        }
+        else{
+            ESP_LOGE(TAG, "Data Send Error");
+        }
+    }
+    else{
+        ESP_LOGE(TAG, "Data Send Error");
+    }
+    esp_http_client_cleanup(client);
+}*/

@@ -11,6 +11,8 @@
 
 #define WEB_SERVER "api.thingspeak.com"
 #define WRITE_API_KEY "RPRQ9VR9G9L4AI0F"
+#define THINGSPEAK_URL "https://api.thingspeak.com"
+#define DATA "/update?api_key=RPRQ9VR9G9L4AI0F&field1="
 
 static const char* get_request_start = "GET /update?key="WRITE_API_KEY;
 static const char* get_request_end = 
@@ -36,15 +38,35 @@ void thingSpeak_post_data(float value){
     strcat(post_data, "&field1=");
     strcat(post_data, field1);
     strcat(post_data, get_request_end);
-    
+
     esp_err_t err;
     err = http_client_request(WEB_SERVER, post_data);
 
     if (err != ESP_OK){
-        ESP_LOGE(TAG, "Error posting data");
+        ESP_LOGE(TAG, "Error posting DATA");
     }
     else{
-        ESP_LOGI(TAG, "Succesfully sended data, data post: %s", post_data);
+        ESP_LOGI(TAG, "Succesfully sended DATA, DATA post: %s", post_data);
     }
     free(post_data);
 }
+
+
+/*static const char* TAG = "ThingSpeak";
+
+void thingSpeak_post_data(float value){
+    int n = snprintf(NULL, 0, "%.2f", value);
+    char field1[n+1];
+    sprintf(field1, "%.2f", value);
+
+    int string_length = strlen(THINGSPEAK_URL);
+    string_length += strlen(DATA);
+    string_length += strlen(field1);
+
+    char data_post[string_length+1];
+    strcpy(data_post, THINGSPEAK_URL);
+    strcat(data_post, DATA);
+    strcat(data_post, field1);
+
+    http_client_request(THINGSPEAK_URL, data_post);
+}*/

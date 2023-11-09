@@ -9,6 +9,7 @@
 #define ESP_ERROR_HTTP_SOCKET_CONNECT_FAIL      (ESP_ERROR_HTTP_BASE + 3)
 #define ESP_ERROR_HTTP_SOCKET_SEND_FAILED       (ESP_ERROR_HTTP_BASE + 4)
 
+//void http_client_request(const char* web_server, char* post_field);
 esp_err_t http_client_request(const char *web_server, const char *request_string);
 
 #endif/*HTTP_REQUEST_H*/

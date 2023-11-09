@@ -1,7 +1,7 @@
 {
     "version":            "1",
     "project_name":       "XD_58C",
-    "project_version":    "bcabedd6-dirty",
+    "project_version":    "36c76d43-dirty",
     "project_path":       "C:/Users/axel9/Documents/examples/XD_58C",
     "idf_path":           "C:/Users/axel9/esp/esp-idf",
     "build_dir":          "C:/Users/axel9/Documents/examples/XD_58C/build",
@@ -740,7 +740,7 @@
             "dir": "C:/Users/axel9/Documents/examples/XD_58C/components/http_request",
             "type": "LIBRARY",
             "lib": "__idf_http_request",
-            "reqs": [ "lwip" ],
+            "reqs": [ "lwip", "esp_http_client" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],

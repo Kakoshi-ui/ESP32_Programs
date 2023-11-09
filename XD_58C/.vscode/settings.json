@@ -28,7 +28,9 @@
         "esp_tls.h": "c",
         "http_request.h": "c",
         "netdb.h": "c",
-        "dns.h": "c"
+        "dns.h": "c",
+        "task.h": "c",
+        "string.h": "c"
     },
     "idf.portWin": "COM9",
     "idf.flashType": "UART",
