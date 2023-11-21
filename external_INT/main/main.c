@@ -6,7 +6,7 @@
 
 static const char* TAG = "MAIN";
 
-void IRAM_ATTR input_callback(void *args){
+void IRAM_ATTR input_callback(void *args){//Save the function in the IRAM to execute this task as soon as its called
     gpio_set_level(GPIO_NUM_5, 1);
 }
 
